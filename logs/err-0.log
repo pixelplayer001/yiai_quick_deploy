@@ -1,77 +1,71 @@
-2025-03-05 02:31:25: [31m[Nest] 3088  - [39m03/05/2025, 2:31:25 AM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
-2025-03-05 02:31:28: [31m[Nest] 3088  - [39m03/05/2025, 2:31:28 AM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
-2025-03-05 02:31:29: [31m[Nest] 3088  - [39m03/05/2025, 2:31:29 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
-2025-03-05 02:32:12: [31m[Nest] 3088  - [39m03/05/2025, 2:32:12 AM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
-2025-03-05 03:00:00: [31m[Nest] 3088  - [39m03/05/2025, 3:00:00 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
-2025-03-05 03:27:04: [31m[Nest] 3088  - [39m03/05/2025, 3:27:04 AM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
-2025-03-05 04:00:00: [31m[Nest] 3088  - [39m03/05/2025, 4:00:00 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
-2025-03-05 05:00:00: [31m[Nest] 3088  - [39m03/05/2025, 5:00:00 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
-2025-03-05 06:00:00: [31m[Nest] 3088  - [39m03/05/2025, 6:00:00 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
-2025-03-05 07:00:00: [31m[Nest] 3088  - [39m03/05/2025, 7:00:00 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
-2025-03-05 08:00:00: [31m[Nest] 3088  - [39m03/05/2025, 8:00:00 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
-2025-03-05 09:00:00: [31m[Nest] 3088  - [39m03/05/2025, 9:00:00 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
-2025-03-05 10:00:00: [31m[Nest] 3088  - [39m03/05/2025, 10:00:00 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
-2025-03-05 11:00:00: [31m[Nest] 3088  - [39m03/05/2025, 11:00:00 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
-2025-03-05 11:40:03: [31m[Nest] 3996  - [39m03/05/2025, 11:40:03 AM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
-2025-03-05 11:40:49: [31m[Nest] 16872  - [39m03/05/2025, 11:40:49 AM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
-2025-03-05 11:41:51: [31m[Nest] 240  - [39m03/05/2025, 11:41:51 AM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
-2025-03-05 11:43:14: [31m[Nest] 240  - [39m03/05/2025, 11:43:14 AM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (1)...[39m
-2025-03-05 11:43:14: QueryFailedError: Table 'verifycation' already exists
-    at Query.onResult (D:\ProgramData\YiAi\node_modules\.pnpm\typeorm@0.3.21_ioredis@5.5._3cf4bd6e69a7d18388decc4608d878e1\node_modules\typeorm\driver\mysql\MysqlQueryRunner.js:165:37)
-    at Query.execute (D:\ProgramData\YiAi\node_modules\.pnpm\mysql2@3.12.0\node_modules\mysql2\lib\commands\command.js:36:14)
-    at PoolConnection.handlePacket (D:\ProgramData\YiAi\node_modules\.pnpm\mysql2@3.12.0\node_modules\mysql2\lib\base\connection.js:475:34)
-    at PacketParser.onPacket (D:\ProgramData\YiAi\node_modules\.pnpm\mysql2@3.12.0\node_modules\mysql2\lib\base\connection.js:93:12)
-    at PacketParser.executeStart (D:\ProgramData\YiAi\node_modules\.pnpm\mysql2@3.12.0\node_modules\mysql2\lib\packet_parser.js:75:16)
-    at Socket.<anonymous> (D:\ProgramData\YiAi\node_modules\.pnpm\mysql2@3.12.0\node_modules\mysql2\lib\base\connection.js:100:25)
-    at Socket.emit (node:events:514:28)
-    at addChunk (node:internal/streams/readable:324:12)
-    at readableAddChunk (node:internal/streams/readable:297:9)
-    at Readable.push (node:internal/streams/readable:234:10)
-    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
-2025-03-05 11:46:00: [31m[Nest] 9856  - [39m03/05/2025, 11:46:00 AM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
-2025-03-05 11:46:26: [31m[Nest] 9856  - [39m03/05/2025, 11:46:26 AM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
-2025-03-05 11:46:26: [31m[Nest] 9856  - [39m03/05/2025, 11:46:26 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
-2025-03-05 11:46:37: [31m[Nest] 9856  - [39m03/05/2025, 11:46:37 AM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
-2025-03-05 11:48:39: [31m[Nest] 9856  - [39m03/05/2025, 11:48:39 AM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
-2025-03-05 11:49:25: [31m[Nest] 18644  - [39m03/05/2025, 11:49:25 AM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
-2025-03-05 11:49:32: [31m[Nest] 18644  - [39m03/05/2025, 11:49:32 AM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
-2025-03-05 11:49:32: [31m[Nest] 18644  - [39m03/05/2025, 11:49:32 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
-2025-03-05 11:52:20: [31m[Nest] 17644  - [39m03/05/2025, 11:52:20 AM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
-2025-03-05 11:52:26: [31m[Nest] 17644  - [39m03/05/2025, 11:52:26 AM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
-2025-03-05 11:52:26: [31m[Nest] 17644  - [39m03/05/2025, 11:52:26 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
-2025-03-05 12:00:00: [31m[Nest] 17644  - [39m03/05/2025, 12:00:00 PM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
-2025-03-05 12:57:18: [31m[Nest] 22908  - [39m03/05/2025, 12:57:18 PM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
-2025-03-05 12:57:26: [31m[Nest] 22908  - [39m03/05/2025, 12:57:26 PM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
-2025-03-05 12:57:26: [31m[Nest] 22908  - [39m03/05/2025, 12:57:26 PM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
-2025-03-05 12:57:39: [31m[Nest] 22908  - [39m03/05/2025, 12:57:39 PM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
-2025-03-05 12:58:30: [31m[Nest] 22908  - [39m03/05/2025, 12:58:30 PM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
-2025-03-05 12:59:04: [31m[Nest] 22908  - [39m03/05/2025, 12:59:04 PM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
-2025-03-05 14:11:13: [31m[Nest] 19068  - [39m03/05/2025, 2:11:13 PM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
-2025-03-05 14:11:40: [31m[Nest] 19068  - [39m03/05/2025, 2:11:40 PM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
-2025-03-05 14:11:40: [31m[Nest] 19068  - [39m03/05/2025, 2:11:40 PM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
-2025-03-05 14:11:54: [31m[Nest] 19068  - [39m03/05/2025, 2:11:54 PM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
-2025-03-05 14:12:24: [31m[Nest] 33496  - [39m03/05/2025, 2:12:24 PM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
-2025-03-05 14:12:34: [31m[Nest] 33496  - [39m03/05/2025, 2:12:34 PM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
-2025-03-05 14:12:34: [31m[Nest] 33496  - [39m03/05/2025, 2:12:34 PM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
-2025-03-05 14:13:38: [31m[Nest] 31112  - [39m03/05/2025, 2:13:38 PM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
-2025-03-05 14:13:47: [31m[Nest] 31112  - [39m03/05/2025, 2:13:47 PM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
-2025-03-05 14:13:47: [31m[Nest] 31112  - [39m03/05/2025, 2:13:47 PM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
-2025-03-05 14:15:30: [31m[Nest] 29708  - [39m03/05/2025, 2:15:30 PM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
-2025-03-05 14:15:40: [31m[Nest] 29708  - [39m03/05/2025, 2:15:40 PM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
-2025-03-05 14:15:41: [31m[Nest] 29708  - [39m03/05/2025, 2:15:41 PM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
-2025-03-05 14:25:03: [31m[Nest] 29708  - [39m03/05/2025, 2:25:03 PM [31m  ERROR[39m [38;5;3m[Scheduler] [39m[31mError: connect ECONNREFUSED 18.162.133.39:30299[39m
-2025-03-05 14:30:03: [31m[Nest] 29708  - [39m03/05/2025, 2:30:03 PM [31m  ERROR[39m [38;5;3m[Scheduler] [39m[31mError: connect ECONNREFUSED 18.162.133.39:30299[39m
-2025-03-05 14:35:04: [31m[Nest] 29708  - [39m03/05/2025, 2:35:04 PM [31m  ERROR[39m [38;5;3m[Scheduler] [39m[31mError: connect ECONNREFUSED 18.162.133.39:30299[39m
-2025-03-05 14:40:03: [31m[Nest] 29708  - [39m03/05/2025, 2:40:03 PM [31m  ERROR[39m [38;5;3m[Scheduler] [39m[31mError: connect ECONNREFUSED 18.162.133.39:30299[39m
-2025-03-05 14:45:00: [31m[Nest] 29708  - [39m03/05/2025, 2:45:00 PM [31m  ERROR[39m [38;5;3m[Scheduler] [39m[31mError: getaddrinfo ENOTFOUND hkg1.clusters.zeabur.com[39m
-2025-03-05 14:50:00: [31m[Nest] 29708  - [39m03/05/2025, 2:50:00 PM [31m  ERROR[39m [38;5;3m[Scheduler] [39m[31mError: getaddrinfo ENOTFOUND hkg1.clusters.zeabur.com[39m
-2025-03-05 14:55:00: [31m[Nest] 29708  - [39m03/05/2025, 2:55:00 PM [31m  ERROR[39m [38;5;3m[Scheduler] [39m[31mError: getaddrinfo ENOTFOUND hkg1.clusters.zeabur.com[39m
-2025-03-05 15:00:00: [31m[Nest] 29708  - [39m03/05/2025, 3:00:00 PM [31m  ERROR[39m [38;5;3m[Scheduler] [39m[31mError: getaddrinfo ENOTFOUND hkg1.clusters.zeabur.com[39m
-2025-03-05 15:00:00: [31m[Nest] 29708  - [39m03/05/2025, 3:00:00 PM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
-2025-03-05 15:05:00: [31m[Nest] 29708  - [39m03/05/2025, 3:05:00 PM [31m  ERROR[39m [38;5;3m[Scheduler] [39m[31mError: getaddrinfo ENOTFOUND hkg1.clusters.zeabur.com[39m
-2025-03-05 15:10:00: [31m[Nest] 29708  - [39m03/05/2025, 3:10:00 PM [31m  ERROR[39m [38;5;3m[Scheduler] [39m[31mError: getaddrinfo ENOTFOUND hkg1.clusters.zeabur.com[39m
-2025-03-05 15:15:00: [31m[Nest] 29708  - [39m03/05/2025, 3:15:00 PM [31m  ERROR[39m [38;5;3m[Scheduler] [39m[31mError: getaddrinfo ENOTFOUND hkg1.clusters.zeabur.com[39m
-2025-03-05 15:20:00: [31m[Nest] 29708  - [39m03/05/2025, 3:20:00 PM [31m  ERROR[39m [38;5;3m[Scheduler] [39m[31mError: getaddrinfo ENOTFOUND hkg1.clusters.zeabur.com[39m
-2025-03-05 15:25:00: [31m[Nest] 29708  - [39m03/05/2025, 3:25:00 PM [31m  ERROR[39m [38;5;3m[Scheduler] [39m[31mError: getaddrinfo ENOTFOUND hkg1.clusters.zeabur.com[39m
-2025-03-05 15:30:00: [31m[Nest] 29708  - [39m03/05/2025, 3:30:00 PM [31m  ERROR[39m [38;5;3m[Scheduler] [39m[31mError: getaddrinfo ENOTFOUND hkg1.clusters.zeabur.com[39m
-2025-03-05 15:35:00: [31m[Nest] 29708  - [39m03/05/2025, 3:35:00 PM [31m  ERROR[39m [38;5;3m[Scheduler] [39m[31mError: getaddrinfo ENOTFOUND hkg1.clusters.zeabur.com[39m
+2025-03-05 18:02:54: [31m[Nest] 31332  - [39m03/05/2025, 6:02:54 PM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: connect ECONNREFUSED 18.162.133.39:30299
+    at Object.createConnectionPromise [as createConnection] (D:\ProgramData\YiAiQuickDeploy\node_modules\.pnpm\mysql2@3.12.0\node_modules\mysql2\promise.js:18:31)
+    at initDatabase (D:\ProgramData\YiAiQuickDeploy\dist\modules\database\initDatabase.js:1:3053)
+    at bootstrap (D:\ProgramData\YiAiQuickDeploy\dist\main.js:1:3499)
+    at Object.<anonymous> (D:\ProgramData\YiAiQuickDeploy\dist\main.js:1:5591)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at D:\ProgramData\nvm\v18.17.1\node_modules\pm2\lib\ProcessContainer.js:304:25
+    at wrapper (D:\ProgramData\nvm\v18.17.1\node_modules\pm2\node_modules\async\internal\once.js:12:16)
+    at next (D:\ProgramData\nvm\v18.17.1\node_modules\pm2\node_modules\async\waterfall.js:96:20)
+    at D:\ProgramData\nvm\v18.17.1\node_modules\pm2\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (D:\ProgramData\nvm\v18.17.1\node_modules\pm2\lib\Utility.js:186:13)
+    at WriteStream.emit (node:events:514:28)
+    at node:internal/fs/streams:75:16
+    at FSReqCallback.oncomplete (node:fs:200:23)
+2025-03-05 18:02:57: [31m[Nest] 31332  - [39m03/05/2025, 6:02:57 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (1)...[39m
+2025-03-05 18:02:57: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:03:04: [31m[Nest] 31332  - [39m03/05/2025, 6:03:04 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (2)...[39m
+2025-03-05 18:03:04: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:03:10: [31m[Nest] 31332  - [39m03/05/2025, 6:03:10 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (3)...[39m
+2025-03-05 18:03:10: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:03:17: [31m[Nest] 31332  - [39m03/05/2025, 6:03:17 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (4)...[39m
+2025-03-05 18:03:17: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:03:23: [31m[Nest] 31332  - [39m03/05/2025, 6:03:23 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (5)...[39m
+2025-03-05 18:03:23: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:03:29: [31m[Nest] 31332  - [39m03/05/2025, 6:03:29 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (6)...[39m
+2025-03-05 18:03:29: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:03:43: [31m[Nest] 31332  - [39m03/05/2025, 6:03:43 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (7)...[39m
+2025-03-05 18:03:43: Error: connect ETIMEDOUT
+    at PoolConnection._handleTimeoutError (D:\ProgramData\YiAiQuickDeploy\node_modules\.pnpm\mysql2@3.12.0\node_modules\mysql2\lib\base\connection.js:200:17)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2025-03-05 18:03:49: [31m[Nest] 31332  - [39m03/05/2025, 6:03:49 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (8)...[39m
+2025-03-05 18:03:49: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:03:55: [31m[Nest] 31332  - [39m03/05/2025, 6:03:55 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (9)...[39m
+2025-03-05 18:04:12: [31m[Nest] 18632  - [39m03/05/2025, 6:04:12 PM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
+2025-03-05 18:04:14: [31m[Nest] 18632  - [39m03/05/2025, 6:04:14 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (1)...[39m
+2025-03-05 18:04:14: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: connect ECONNREFUSED 18.162.133.39:30299
+    at Object.createConnectionPromise [as createConnection] (D:\ProgramData\YiAiQuickDeploy\node_modules\.pnpm\mysql2@3.12.0\node_modules\mysql2\promise.js:18:31)
+    at initDatabase (D:\ProgramData\YiAiQuickDeploy\dist\modules\database\initDatabase.js:1:3053)
+    at bootstrap (D:\ProgramData\YiAiQuickDeploy\dist\main.js:1:3499)
+    at Object.<anonymous> (D:\ProgramData\YiAiQuickDeploy\dist\main.js:1:5591)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at D:\ProgramData\nvm\v18.17.1\node_modules\pm2\lib\ProcessContainer.js:304:25
+    at wrapper (D:\ProgramData\nvm\v18.17.1\node_modules\pm2\node_modules\async\internal\once.js:12:16)
+    at next (D:\ProgramData\nvm\v18.17.1\node_modules\pm2\node_modules\async\waterfall.js:96:20)
+    at D:\ProgramData\nvm\v18.17.1\node_modules\pm2\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (D:\ProgramData\nvm\v18.17.1\node_modules\pm2\lib\Utility.js:186:13)
+    at WriteStream.emit (node:events:514:28)
+    at node:internal/fs/streams:75:16
+    at FSReqCallback.oncomplete (node:fs:200:23)
+2025-03-05 18:04:21: [31m[Nest] 18632  - [39m03/05/2025, 6:04:21 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (2)...[39m
+2025-03-05 18:04:21: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)

@@ -7,7 +7,7 @@
   "license": "UNLICENSED",
   "bin": "./dist/main.js",
   "scripts": {
-    "start": "pm2 start pm2.conf.json",
+    "start": "pm2 start pm2.conf.json --no-daemon",
     "build": "nest build && npm run encrypt ",
     "build:test": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
