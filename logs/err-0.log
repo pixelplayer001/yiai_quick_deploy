@@ -69,3 +69,95 @@ Error: connect ECONNREFUSED 18.162.133.39:30299
 2025-03-05 18:04:21: [31m[Nest] 18632  - [39m03/05/2025, 6:04:21 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (2)...[39m
 2025-03-05 18:04:21: Error: connect ECONNREFUSED 18.162.133.39:30299
     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:07:08: [31m[Nest] 29296  - [39m03/05/2025, 6:07:08 PM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: connect ECONNREFUSED 18.162.133.39:30299
+    at Object.createConnectionPromise [as createConnection] (D:\ProgramData\YiAiQuickDeploy\node_modules\.pnpm\mysql2@3.12.0\node_modules\mysql2\promise.js:18:31)
+    at initDatabase (D:\ProgramData\YiAiQuickDeploy\dist\modules\database\initDatabase.js:1:3053)
+    at bootstrap (D:\ProgramData\YiAiQuickDeploy\dist\main.js:1:3499)
+    at Object.<anonymous> (D:\ProgramData\YiAiQuickDeploy\dist\main.js:1:5591)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at D:\ProgramData\nvm\v18.17.1\node_modules\pm2\lib\ProcessContainer.js:304:25
+    at wrapper (D:\ProgramData\nvm\v18.17.1\node_modules\pm2\node_modules\async\internal\once.js:12:16)
+    at next (D:\ProgramData\nvm\v18.17.1\node_modules\pm2\node_modules\async\waterfall.js:96:20)
+    at D:\ProgramData\nvm\v18.17.1\node_modules\pm2\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (D:\ProgramData\nvm\v18.17.1\node_modules\pm2\lib\Utility.js:186:13)
+    at WriteStream.emit (node:events:514:28)
+    at node:internal/fs/streams:75:16
+    at FSReqCallback.oncomplete (node:fs:200:23)
+2025-03-05 18:07:11: [31m[Nest] 29296  - [39m03/05/2025, 6:07:11 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (1)...[39m
+2025-03-05 18:07:11: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:07:18: [31m[Nest] 29296  - [39m03/05/2025, 6:07:18 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (2)...[39m
+2025-03-05 18:07:18: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:07:25: [31m[Nest] 29296  - [39m03/05/2025, 6:07:25 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (3)...[39m
+2025-03-05 18:07:25: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:07:31: [31m[Nest] 29296  - [39m03/05/2025, 6:07:31 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (4)...[39m
+2025-03-05 18:07:31: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:07:38: [31m[Nest] 29296  - [39m03/05/2025, 6:07:38 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (5)...[39m
+2025-03-05 18:07:38: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:07:44: [31m[Nest] 29296  - [39m03/05/2025, 6:07:44 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (6)...[39m
+2025-03-05 18:07:44: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:07:50: [31m[Nest] 29296  - [39m03/05/2025, 6:07:50 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (7)...[39m
+2025-03-05 18:07:50: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:07:57: [31m[Nest] 29296  - [39m03/05/2025, 6:07:57 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (8)...[39m
+2025-03-05 18:07:57: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:08:03: [31m[Nest] 29296  - [39m03/05/2025, 6:08:03 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (9)...[39m
+2025-03-05 18:08:31: [31m[Nest] 20168  - [39m03/05/2025, 6:08:31 PM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: connect ECONNREFUSED 18.162.133.39:30299
+    at Object.createConnectionPromise [as createConnection] (D:\ProgramData\YiAiQuickDeploy\node_modules\.pnpm\mysql2@3.12.0\node_modules\mysql2\promise.js:18:31)
+    at initDatabase (D:\ProgramData\YiAiQuickDeploy\dist\modules\database\initDatabase.js:1:3053)
+    at bootstrap (D:\ProgramData\YiAiQuickDeploy\dist\main.js:1:3499)
+    at Object.<anonymous> (D:\ProgramData\YiAiQuickDeploy\dist\main.js:1:5591)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at D:\ProgramData\nvm\v18.17.1\node_modules\pm2\lib\ProcessContainer.js:304:25
+    at wrapper (D:\ProgramData\nvm\v18.17.1\node_modules\pm2\node_modules\async\internal\once.js:12:16)
+    at next (D:\ProgramData\nvm\v18.17.1\node_modules\pm2\node_modules\async\waterfall.js:96:20)
+    at D:\ProgramData\nvm\v18.17.1\node_modules\pm2\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (D:\ProgramData\nvm\v18.17.1\node_modules\pm2\lib\Utility.js:186:13)
+    at WriteStream.emit (node:events:514:28)
+    at node:internal/fs/streams:75:16
+    at FSReqCallback.oncomplete (node:fs:200:23)
+2025-03-05 18:08:34: [31m[Nest] 20168  - [39m03/05/2025, 6:08:34 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (1)...[39m
+2025-03-05 18:08:34: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:08:41: [31m[Nest] 20168  - [39m03/05/2025, 6:08:41 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (2)...[39m
+2025-03-05 18:08:41: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:08:47: [31m[Nest] 20168  - [39m03/05/2025, 6:08:47 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (3)...[39m
+2025-03-05 18:08:47: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:08:54: [31m[Nest] 20168  - [39m03/05/2025, 6:08:54 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (4)...[39m
+2025-03-05 18:08:54: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:09:00: [31m[Nest] 20168  - [39m03/05/2025, 6:09:00 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (5)...[39m
+2025-03-05 18:09:00: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:09:07: [31m[Nest] 20168  - [39m03/05/2025, 6:09:07 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (6)...[39m
+2025-03-05 18:09:07: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:09:13: [31m[Nest] 20168  - [39m03/05/2025, 6:09:13 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (7)...[39m
+2025-03-05 18:09:13: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:09:20: [31m[Nest] 20168  - [39m03/05/2025, 6:09:20 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (8)...[39m
+2025-03-05 18:09:20: Error: connect ECONNREFUSED 18.162.133.39:30299
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+2025-03-05 18:09:26: [31m[Nest] 20168  - [39m03/05/2025, 6:09:26 PM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (9)...[39m
+2025-03-05 18:09:40: [31m[Nest] 34384  - [39m03/05/2025, 6:09:40 PM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
+2025-03-05 18:10:04: [31m[Nest] 34384  - [39m03/05/2025, 6:10:04 PM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
+2025-03-05 18:10:06: [31m[Nest] 34384  - [39m03/05/2025, 6:10:06 PM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
+2025-03-05 18:10:21: [31m[Nest] 34384  - [39m03/05/2025, 6:10:21 PM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
