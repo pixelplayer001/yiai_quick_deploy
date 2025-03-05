@@ -1,0 +1,48 @@
+2025-03-05 02:31:25: [31m[Nest] 3088  - [39m03/05/2025, 2:31:25 AM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
+2025-03-05 02:31:28: [31m[Nest] 3088  - [39m03/05/2025, 2:31:28 AM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
+2025-03-05 02:31:29: [31m[Nest] 3088  - [39m03/05/2025, 2:31:29 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
+2025-03-05 02:32:12: [31m[Nest] 3088  - [39m03/05/2025, 2:32:12 AM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
+2025-03-05 03:00:00: [31m[Nest] 3088  - [39m03/05/2025, 3:00:00 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
+2025-03-05 03:27:04: [31m[Nest] 3088  - [39m03/05/2025, 3:27:04 AM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
+2025-03-05 04:00:00: [31m[Nest] 3088  - [39m03/05/2025, 4:00:00 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
+2025-03-05 05:00:00: [31m[Nest] 3088  - [39m03/05/2025, 5:00:00 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
+2025-03-05 06:00:00: [31m[Nest] 3088  - [39m03/05/2025, 6:00:00 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
+2025-03-05 07:00:00: [31m[Nest] 3088  - [39m03/05/2025, 7:00:00 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
+2025-03-05 08:00:00: [31m[Nest] 3088  - [39m03/05/2025, 8:00:00 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
+2025-03-05 09:00:00: [31m[Nest] 3088  - [39m03/05/2025, 9:00:00 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
+2025-03-05 10:00:00: [31m[Nest] 3088  - [39m03/05/2025, 10:00:00 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
+2025-03-05 11:00:00: [31m[Nest] 3088  - [39m03/05/2025, 11:00:00 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
+2025-03-05 11:40:03: [31m[Nest] 3996  - [39m03/05/2025, 11:40:03 AM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
+2025-03-05 11:40:49: [31m[Nest] 16872  - [39m03/05/2025, 11:40:49 AM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
+2025-03-05 11:41:51: [31m[Nest] 240  - [39m03/05/2025, 11:41:51 AM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
+2025-03-05 11:43:14: [31m[Nest] 240  - [39m03/05/2025, 11:43:14 AM [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (1)...[39m
+2025-03-05 11:43:14: QueryFailedError: Table 'verifycation' already exists
+    at Query.onResult (D:\ProgramData\YiAi\node_modules\.pnpm\typeorm@0.3.21_ioredis@5.5._3cf4bd6e69a7d18388decc4608d878e1\node_modules\typeorm\driver\mysql\MysqlQueryRunner.js:165:37)
+    at Query.execute (D:\ProgramData\YiAi\node_modules\.pnpm\mysql2@3.12.0\node_modules\mysql2\lib\commands\command.js:36:14)
+    at PoolConnection.handlePacket (D:\ProgramData\YiAi\node_modules\.pnpm\mysql2@3.12.0\node_modules\mysql2\lib\base\connection.js:475:34)
+    at PacketParser.onPacket (D:\ProgramData\YiAi\node_modules\.pnpm\mysql2@3.12.0\node_modules\mysql2\lib\base\connection.js:93:12)
+    at PacketParser.executeStart (D:\ProgramData\YiAi\node_modules\.pnpm\mysql2@3.12.0\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (D:\ProgramData\YiAi\node_modules\.pnpm\mysql2@3.12.0\node_modules\mysql2\lib\base\connection.js:100:25)
+    at Socket.emit (node:events:514:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2025-03-05 11:46:00: [31m[Nest] 9856  - [39m03/05/2025, 11:46:00 AM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
+2025-03-05 11:46:26: [31m[Nest] 9856  - [39m03/05/2025, 11:46:26 AM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
+2025-03-05 11:46:26: [31m[Nest] 9856  - [39m03/05/2025, 11:46:26 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
+2025-03-05 11:46:37: [31m[Nest] 9856  - [39m03/05/2025, 11:46:37 AM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
+2025-03-05 11:48:39: [31m[Nest] 9856  - [39m03/05/2025, 11:48:39 AM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
+2025-03-05 11:49:25: [31m[Nest] 18644  - [39m03/05/2025, 11:49:25 AM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
+2025-03-05 11:49:32: [31m[Nest] 18644  - [39m03/05/2025, 11:49:32 AM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
+2025-03-05 11:49:32: [31m[Nest] 18644  - [39m03/05/2025, 11:49:32 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
+2025-03-05 11:52:20: [31m[Nest] 17644  - [39m03/05/2025, 11:52:20 AM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
+2025-03-05 11:52:26: [31m[Nest] 17644  - [39m03/05/2025, 11:52:26 AM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
+2025-03-05 11:52:26: [31m[Nest] 17644  - [39m03/05/2025, 11:52:26 AM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
+2025-03-05 12:00:00: [31m[Nest] 17644  - [39m03/05/2025, 12:00:00 PM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
+2025-03-05 12:57:18: [31m[Nest] 22908  - [39m03/05/2025, 12:57:18 PM [31m  ERROR[39m [38;5;3m[MailerService] [39m[31mError occurred while verifying the transporter}: Missing credentials for "PLAIN"[39m
+2025-03-05 12:57:26: [31m[Nest] 22908  - [39m03/05/2025, 12:57:26 PM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
+2025-03-05 12:57:26: [31m[Nest] 22908  - [39m03/05/2025, 12:57:26 PM [31m  ERROR[39m [38;5;3m[OfficialService] [39m[31m还未配置微信的appId和secret、配置后才可进行微信扫码登录！！！[39m
+2025-03-05 12:57:39: [31m[Nest] 22908  - [39m03/05/2025, 12:57:39 PM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
+2025-03-05 12:58:30: [31m[Nest] 22908  - [39m03/05/2025, 12:58:30 PM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
+2025-03-05 12:59:04: [31m[Nest] 22908  - [39m03/05/2025, 12:59:04 PM [31m  ERROR[39m [38;5;3m[GlobalConfigService] [39m[31m百度敏感词初始化失败，如果需要敏感检测、请前往后台系统配置![39m
