@@ -1,7 +1,7 @@
 {
   "apps": {
     "name": "yiai-v2.5.0",
-    "script": "./main.js",
+    "script": "./dist/main.js",
     "watch": true,
     "ignore_watch": [
       "node_modules",
